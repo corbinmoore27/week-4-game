@@ -1,0 +1,74 @@
+#winningNum,
+#yourNum {
+    height: 50px;
+    width: 250px;
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+    margin: 20px;
+    color: white;
+}
+
+#reset {
+    height: 50px;
+    width: 550px;
+    background-color: black;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 12.5px;
+    margin: 20px;
+    color: white;
+}
+
+#howToPlay {
+    height: 250px;
+    background-color: black;
+    text-align: center;
+    margin: 20px 0px;
+    color: white;
+
+}
+
+#numDisplay1,
+#numDisplay2 {
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 150px;
+    background-color: black;
+    margin: 20px;
+    color: white;
+}
+
+.gemsImg {
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+}
+
+#winsDisp,
+#lossesDisp {
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 12.5px;
+    margin: 20px;
+    color: white;
+}
+
+body {
+    /* background-image: url("http://www.photos-public-domain.com/wp-content/uploads/2012/01/teal-fabric-texture.jpg"); */
+    /* background-repeat: no-repeat; */
+    background-color: grey;
+}
+
+p {
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 40px;
+}

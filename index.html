@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Crystal Collector</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6" id="howToPlay"><h1>HOW TO PLAY</h1><br><br><p>The object of the game is to get your number to match the winning number. This is acheived by clicking the crystals. These crystals have random values assigned to them each game. <br><br>As you click the crystals your score will be totalled. Go over and you lose.</p></div>
+            <div class="col-sm-3"><img id="image1" class="gemsImg" src="assets/images/crystal1.jpg"></div>
+            <div class="col-sm-3"><img id="image2" class="gemsImg" src="assets/images/crystal2.jpeg"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3" id="winningNum">WINNING NUMBER</div>
+            <div class="col-sm-3" id="yourNum">YOUR NUMBER</div>
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3" id="numDisplay1"></div>
+            <div class="col-sm-3" id="numDisplay2"></div>
+            <div class="col-sm-3"><img id="image3" class="gemsImg" src="assets/images/crystal3.jpeg"></div>
+            <div class="col-sm-3"><img id="image4" class="gemsImg" src="assets/images/crystal4.jpeg"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3" id="winsDisp"></div>
+            <div class="col-sm-3" id="lossesDisp"></div>
+            <div class="col-sm-6" id="reset"></div>
+        </div>
+    </div>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
